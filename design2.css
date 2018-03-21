@@ -1,5 +1,5 @@
 html {
-font-family: 'ABeeZee', sans-serif;
+
 
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
@@ -11,9 +11,11 @@ font-family: 'ABeeZee', sans-serif;
   font-size: 10px;
   padding-top: 30%;
   margin-bottom: -5%;
+  color: black;
  }
 
  h1{
+font-family: 'ABeeZee', sans-serif;
 padding-bottom: 1px;
 padding-left: 10.5%;
 padding-right: 11.5%;
@@ -25,24 +27,26 @@ font-size: 30px;
  }
 
  h3{
+  font-family: 'ABeeZee', sans-serif;
   color: #45665A;
  }
 
 
  h6{
+  font-family: 'ABeeZee', sans-serif;
 
   font-size: 50px;
   padding-left: 33%;
-  color: #45665A;
+ 
   margin: 0%;
-
+color: #45665A;
 
 
  }
 
  h2
  {
-
+font-family: 'ABeeZee', sans-serif;
   font-size: 60px;
   color: #45665A;
   margin-bottom: 5%;
@@ -101,7 +105,7 @@ margin: -1%;
 }
 
 #menu ul {
-
+font-family: 'ABeeZee', sans-serif;
   background-color: #none;
   height: 5px;
   float: none;

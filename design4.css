@@ -8,6 +8,7 @@ font-family: 'ABeeZee', sans-serif;
  }
 
  h1{
+  font-family: 'ABeeZee', sans-serif;
 padding: 0%;
 padding-top: 1%;
 margin-left: 20%;
@@ -20,7 +21,7 @@ text-align: center;
 
  h2
  {
-
+font-family: 'ABeeZee', sans-serif;
   font-size: 60px;
   color: #45665A;
   margin-bottom: 5%;
@@ -32,6 +33,7 @@ text-align: center;
  }
 
  h3{
+  font-family: 'ABeeZee', sans-serif;
   color: #45665A;
   font-size: 40px;
   margin: -0%;
@@ -41,7 +43,7 @@ text-align: center;
 
 
  h6{
-
+font-family: 'ABeeZee', sans-serif;
   font-size: 30px;
   color: #45665A;
   margin-bottom: -4%;
@@ -120,7 +122,7 @@ padding-top: -0%;
 
 
 #menu ul {
-
+font-family: 'ABeeZee', sans-serif;
   background-color: #none;
   height: 5px;
   float: none;
