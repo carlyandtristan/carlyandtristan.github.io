@@ -5,10 +5,12 @@ html {
 }
 
 
+
 .image2
 {
 width: 104%;
 margin-left: -2%;
+margin-top: 10%;
 
 }
 
@@ -214,11 +216,14 @@ html {
 
 h1 {
     font-size: 36px
+  
+   
 
 }
 
 h2 {
     font-size: 30px
+
 }
 
 h3 {
