@@ -6,6 +6,7 @@ html {
 
 
 
+
 .image2
 {
 width: 104%;
@@ -242,6 +243,8 @@ h6 {
     font-size: 16px
 }
 
+
+
 .w3-serif {
     font-family: serif
 }
@@ -313,7 +316,7 @@ a {
 
 .w3-table td, .w3-table th, .w3-table-all td, .w3-table-all th {
     padding: 8px 8px;
-    display: table-cell;
+    display: table-cell; 
     text-align: left;
     vertical-align: top
 }
@@ -331,7 +334,7 @@ a {
     overflow: hidden;
     text-decoration: none;
     color: inherit;
-    background-color: inherit;
+    background-color: white;
     text-align: center;
     cursor: pointer;
     white-space: nowrap
