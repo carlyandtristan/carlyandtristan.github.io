@@ -4,10 +4,11 @@ html {
 
 }
 
-@media screen and (max-width: 480px) {
 
-    .bgimg2 {width:50%}
-
+.bgimg2 {
+  width: auto ;
+  max-width: 100% ;
+  height: auto ;
 }
 
 
