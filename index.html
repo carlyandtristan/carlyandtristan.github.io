@@ -1,94 +1,139 @@
-<!DOCTYPE html>
-<html>
 
-<head>
- 
-<link rel="stylesheet" type="text/css" href="design.css">
-<link href="https://fonts.googleapis.com/css?family=ABeeZee" rel="stylesheet">
+<html>
+<title>Carly and Tristan 2018</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+body,h1,h2{font-family: "Raleway", sans-serif,}
+body, html {height: 100%}
+p {line-height: 2}
+
+.bgimg2{
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.image1 
+{
+width: 101%;
+margin-left: -8px;
+}
+
+.bgimg2 {background-image: url("images/CT_030.jpg")}
 
 </style>
-	<title>Carly and Tristan 2018</title>
-
-
-		<img src="images/branded3.png" class="image1">
-</head>
-
-
-
-<!-- body tage begins -->
-
-
 <body>
-
-		<div class="container">
-
-
-<div id="menu"> 
-    	<ul>
-    	 	<li><a href="index.html">Home</a></li>
-			 <li><a href="events.html">Events</a></li>
-			 <li><a href="accomodations.html">Accomodations</a></li>
-			 <li><a href="weddingparty.html">Wedding Party</a></li>
-			 <li><a href="photos.html">Photos</a></li>
-			 <li><a href="giftregistry.html">Gift Registry</a></li>
-			 <li><a href="rsvp.html">RSVP</a></li>
-		</ul>	
-
-</div>
-  
-	<center>
-    <img src="images/headerimgcopy.jpg" class="image2">
-    </center>
-
-<div>
+<img src="images/headerimg.png" class="image1">
 
 
-<center>
+<!-- Header / Home-->
+<header class="w3-display-container w3-wide bgimg w3-grayscale-min" id="home">
+  <div class="w3-display-middle w3-text-white w3-center">
+    
+  </div>
+</header>
 
-<h3> 
-	<div>
-	Join us for our wedding celebration on
-    </div>
-    <div>
-	September 2nd 2018
-</div>
+<!-- Navbar (sticky bottom) -->
+<div class="w3-bottom w3-hide-small">
+  <div class="w3-bar w3-white w3-center w3-padding w3-opacity-min w3-hover-opacity-off">
    
-    <div>
-    In NYC!
+    <a href="home.html" style="width:25%" class="w3-bar-item w3-button">Home</a>
+    
+    <a href="events.html" style="width:25%" class="w3-bar-item w3-button">Events</a>
+    
+    <a href="accomodations.html" style="width:25%" class="w3-bar-item w3-button">Accomodations</a>
+   
+    <a href="weddingparty.html" style="width:25%" class="w3-bar-item w3-button w3-hover-black">Wedding Party</a>
+   
+    <a href="photos.html" style="width:25%" class="w3-bar-item w3-button w3-hover-black">Photos</a>
+    
+    <a href="giftregistry.html" style="width:25%" class="w3-bar-item w3-button w3-hover-black">Gift Registry</a>
+   
+    <a href="rsvp.html" style="width:25%" class="w3-bar-item w3-button w3-hover-black">RSVP</a>
+   
+  </div>
+</div>
+
+<!-- About / Jane And John -->
+<div class="w3-container w3-padding-64 w3-pale-red w3-grayscale-min" id="us">
+  <div class="w3-content">
+    <h1 class="w3-center w3-text-grey"><b>Carly & Tristan</b></h1>
+    <img class="w3-round w3-grayscale-min" src="images/CT_043.jpg" style="width:100%;margin:32px 0">
+    <p><i>Carly and Tristan met at a concert in Dallas, TX in 2013. They have been inseperable ever since. They both enjoy playing board games like scrabble as well as various puzzles. They both live and work together in New Jersey. Carly and Tristan are so excited to celebrate their marriage with all of their close friends and family in NYC!.</i>
+    </p><br>
+    <p class="w3-center"><a href="#wedding" class="w3-button w3-black w3-round w3-padding-large w3-large">Wedding Details</a></p>
+  </div>
+</div>
+
+<!-- Background photo -->
+<div class="w3-display-container bgimg2">
+  <div class="w3-display-middle w3-text-white w3-center">
+    <h1 class="w3-jumbo">You Are Invited</h1><br>
+    <h2>Of course..</h2>
+  </div>
+</div>
+
+<!-- Wedding information -->
+<div class="w3-container w3-padding-64 w3-pale-red w3-grayscale-min w3-center" id="wedding">
+  <div class="w3-content">
+    <h1 class="w3-text-grey"><b>THE WEDDING</b></h1>
+    <img class="w3-round-large w3-grayscale-min" src="images/CT_091.jpg" style="width:100%;margin:64px 0">
+    <div class="w3-row">
+      <div class="w3-half">
+        <h2>When</h2>
+        <p>Wedding Ceremony - 2:00pm</p>
+        <p>Reception & Dinner - 5:00pm</p> 
+      </div>
+      <div class="w3-half">
+        <h2>Where</h2>
+        <p>Some place, an address</p>
+        <p>Some where, some address</p>
+      </div>
     </div>
-</h3>
- 
+  </div>
+</div>
 
-  </center>
+<!-- RSVP section -->
+<div class="w3-container w3-padding-64 w3-pale-red w3-center w3-wide" id="rsvp">
+  <h1>HOPE YOU CAN MAKE IT!</h1>
+  <p class="w3-large">Kindly Respond By June, 2018</p>
+  <p class="w3-xlarge">
+    <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-round w3-red w3-opacity w3-hover-opacity-off" style="padding:8px 60px">RSVP</button>
+  </p>
+</div>
 
-   	
+<!-- RSVP modal -->
+<div id="id01" class="w3-modal">
+  <div class="w3-modal-content w3-card-4 w3-animate-zoom" style="padding:32px;max-width:600px">
+    <div class="w3-container w3-white w3-center">
+      <h1 class="w3-wide">CAN YOU COME?</h1>
+      <p>We really hope you can make it.</p>
+      <form>
+        <input class="w3-input w3-border" type="text" placeholder="Name(s)" name="name">
+      </form>
+      <p><i>Sincerely, Carly &amp; Tristan</i></p>
+      <div class="w3-row">
+        <div class="w3-half">
+          <button onclick="document.getElementById('id01').style.display='none'" type="button" class="w3-button w3-block w3-green">Going</button>
+        </div>
+        <div class="w3-half">
+          <button onclick="document.getElementById('id01').style.display='none'" type="button" class="w3-button w3-block w3-red">Can't come</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
-<img src="images/CT_043.jpg" class="image4">
- 
- <center>
- <h4>Our Story</h4>
-</center>
-
-<h6>
-  <p>
-	Carly and Tristan met at a concert in Dallas, TX in 2013. They have been 
-	inseperable ever since. They both enjoy playing board games like scrabble as well as various puzzles. They both live and work together in New Jersey. Carly and Tristan are so excited to celebrate their marriage with all of their close friends and family in NYC!
-</p>
-</h6>
-
-
-
-</center>
-
-
-
-
-
+<!-- Footer -->
 
 <center>
-<h5>
+<h8>
 Copyright Cayla Thompson 2018
-</h5>
+</h8>
 </center>
 
 
