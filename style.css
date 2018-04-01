@@ -4,6 +4,12 @@ html {
 
 }
 
+@media screen and (max-width: 480px) {
+
+    .bgimg2 {width:50%}
+
+}
+
 
 * , * :before, * :after {
     box-sizing: inherit
