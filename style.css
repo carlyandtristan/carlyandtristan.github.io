@@ -5,11 +5,11 @@ html {
 }
 
 
-.bgimg2 {
-  width: auto ;
-  max-width: 100% ;
-  height: auto ;
-  
+.image2
+{
+width: 104%;
+margin-left: -2%;
+
 }
 
 
@@ -1226,6 +1226,7 @@ a {
 
 .w3-jumbo {
     font-size: 64px !important
+    
 }
 
 .w3-left-align {
