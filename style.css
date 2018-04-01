@@ -6,9 +6,10 @@ html {
 
 
 .bgimg2 {
-  width: auto ;
-  max-width: 100% ;
-  height: auto ;
+  
+  min-height: 100%;
+    background-position: center;
+    background-size: cover;
 }
 
 
