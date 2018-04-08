@@ -24,24 +24,32 @@ margin-bottom: 3%;
 
 h2
 {
+    font-family: 'Quicksand', sans-serif;
+
 margin-left:25%;
 margin-right:25%;
 }
 
 h3
 {
+    font-family: 'Quicksand', sans-serif;
+
 text-align: center;
 font-size: 60px;
 }
 
 h4
 {
+    font-family: 'Quicksand', sans-serif;
+
 font-size: 40px;
 text-align: center;
 }
 
 p
 {
+    font-family: 'Quicksand', sans-serif;
+
 margin: 40px;
 }
 

@@ -41,7 +41,7 @@ font-family: 'Quicksand', sans-serif;
 
  h5
  {
-  font-family: 'ABeeZee', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: 10px;
   padding-top: 30%;
   padding-bottom: -5%;
@@ -49,15 +49,10 @@ font-family: 'Quicksand', sans-serif;
   
  }
 
-html body{
 
-  background-color: #C5D9F0;
-
-}
 
  p {
-font-family: 'ABeeZee', sans-serif;
-  font-family: 'League Script', cursive;
+font-family: 'Quicksand', sans-serif;
     padding-left: 30px;
     padding-bottom: 0px;
     padding-top: 0px;
