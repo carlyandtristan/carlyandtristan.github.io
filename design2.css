@@ -1,10 +1,10 @@
-html {
-
-
-  -webkit-text-size-adjust: 100%;
-      -ms-text-size-adjust: 100%;
-
- }
+html body
+{
+text-align: center;
+font-family: 'Quicksand', sans-serif;
+color: #2b2b2b;
+background-color: mistyrose;
+}
 
 
  h5{
@@ -15,7 +15,7 @@ html {
  }
 
  h1{
-font-family: 'ABeeZee', sans-serif;
+font-family: 'Quicksand', sans-serif;
 padding-bottom: 1px;
 padding-left: 10.5%;
 padding-right: 11.5%;
@@ -27,16 +27,16 @@ font-size: 30px;
  }
 
  h3{
-  font-family: 'ABeeZee', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   color: #45665A;
  }
 
 
  h6{
-  font-family: 'ABeeZee', sans-serif;
+  font-family: 'Quicksand', sans-serif;
 
   font-size: 50px;
-  padding-left: 33%;
+  padding-left: 1%;
  
   margin: 0%;
 color: #45665A;
@@ -46,11 +46,11 @@ color: #45665A;
 
  h2
  {
-font-family: 'ABeeZee', sans-serif;
+font-family: 'Quicksand', sans-serif;
   font-size: 60px;
   color: #45665A;
-  margin-bottom: 5%;
-  margin-top: 7%;
+  margin-bottom: 1%;
+  margin-top: 3%;
   margin-right: 10%;
   margin-left: 10%;
   text-align: center;
@@ -59,18 +59,9 @@ font-family: 'ABeeZee', sans-serif;
   
 
 
-
-
-
-html body{
-
-  background-color: #C5D9F0;
-
-}
-
  p {
 
-font-family: 'ABeeZee', sans-serif;
+font-family: 'Quicksand', sans-serif;
 
     padding-left: 11%;
     padding-bottom: 60px;
@@ -90,6 +81,7 @@ font-family: 'ABeeZee', sans-serif;
 
 width: 100.50%;
 margin: -1%;
+margin-top: 3%;
 
 }
 
@@ -104,36 +96,40 @@ margin: -1%;
 
 }
 
-#menu ul {
-font-family: 'ABeeZee', sans-serif;
-  background-color: #none;
-  height: 5px;
-  float: none;
-  text-align: center; 
-  padding: 0px;
-  padding-bottom: 3%;
-  padding-top: -5%;
+/* The navigation bar */
+.navbar {
+    overflow: hidden;
+    background-color: white;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    margin-left: -.60%;
+
+
 
 }
 
-#menu ul li {
-  
-  font-size: 20px;
-  line-height: 50px; 
-  display: inline;
-  margin: 0px 20px;
-  font-style: normal;
+/* Links inside the navbar */
+.navbar a {
+    float: left;
+    display: block;
+    color: #2b2b2b;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 
 }
 
-#menu ul li a {
-  color: #45665A;
-  text-decoration:none;
-  
+/* Change background on mouse-over */
+.navbar a:hover {
+    background: #ddd;
+    color: black;
 }
 
-#menu ul li a:hover {
-  color: darksalmon;
-
-
+/* Main content */
+.main {
+    margin-top: 30px; /* Add a top margin to avoid content overlay */
 }
+
+
+

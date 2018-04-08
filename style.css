@@ -1,7 +1,10 @@
 /* W3.CSS 4.10 February 2018 by Jan Egil and Borge Refsnes */
-html {
-    box-sizing: border-box
-
+html body
+{
+text-align: center;
+font-family: 'Quicksand', sans-serif;
+color: #2b2b2b;
+background-color: mistyrose;
 }
 
 
@@ -28,6 +31,7 @@ html {
 
 body {
     margin: 0
+
 }
 
 article, aside, details, figcaption, figure, footer, header, main, menu,
@@ -73,7 +77,7 @@ dfn {
 
 mark {
     background: #ff0;
-    color: #000;
+    color: #2b2b2b;
 }
 
 small {
