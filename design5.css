@@ -46,6 +46,16 @@ font-size: 40px;
 text-align: center;
 }
 
+ h5{
+  font-family: 'Quicksand', sans-serif;
+
+  font-size: 10px;
+  padding-top: 15%;
+  padding-bottom: -5%;
+  margin-bottom: -5%;
+ }
+
+
 p
 {
     font-family: 'Quicksand', sans-serif;
