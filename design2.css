@@ -1,14 +1,14 @@
 html body
 {
 text-align: center;
-font-family: 'Quicksand', sans-serif;
+font-family: 'Work Sans', sans-serif;
 color: #2b2b2b;
 background-color: mistyrose;
 }
 
 
  h5{
-  font-family: 'Quicksand', sans-serif;
+
   font-size: 10px;
   padding-top: 30%;
   margin-bottom: -5%;
@@ -16,7 +16,7 @@ background-color: mistyrose;
  }
 
  h1{
-font-family: 'Quicksand', sans-serif;
+
 padding-bottom: 1px;
 padding-left: 10.5%;
 padding-right: 11.5%;
@@ -28,13 +28,13 @@ font-size: 30px;
  }
 
  h3{
-  font-family: 'Quicksand', sans-serif;
+  
   color: #45665A;
  }
 
 
  h6{
-  font-family: 'Quicksand', sans-serif;
+
 
   font-size: 50px;
   padding-left: 1%;
@@ -47,7 +47,7 @@ color: #45665A;
 
  h2
  {
-font-family: 'Quicksand', sans-serif;
+
   font-size: 60px;
   color: #45665A;
   margin-bottom: 1%;
@@ -62,7 +62,7 @@ font-family: 'Quicksand', sans-serif;
 
  p {
 
-font-family: 'Quicksand', sans-serif;
+
 
     padding-left: 11%;
     padding-bottom: 60px;
