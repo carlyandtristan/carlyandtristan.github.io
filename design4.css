@@ -17,7 +17,17 @@ text-align: center;
 
 
  }
+footer { 
 
+    display: block;
+    background-color: #2b2b2b;
+    color: white;
+    box-sizing: border-box;
+    width: 103%;
+    height: 102%;
+    padding-top: 10%;
+    margin-left:-2%;
+}
  h2
  {
 
