@@ -46,19 +46,20 @@ margin-bottom: -3%;
 
  h1{
 
-padding-bottom: 1px;
-padding-left: 10.5%;
-padding-right: 11.5%;
+padding-bottom: 20%;
+padding-left: 25%;
+padding-right: 25.5%;
 padding-top: 0%;
-color: #45665A;
+color: #2b2b2b;
 text-align: center;
 font-size: 30px;
+
 
  }
 
  h3{
   
-  color: #45665A;
+  color: #2b2b2b;
  }
 
 
@@ -69,7 +70,7 @@ font-size: 30px;
   padding-left: 1%;
  
   margin: 0%;
-color: #45665A;
+color: #2b2b2b;
 
 
  }
@@ -78,12 +79,13 @@ color: #45665A;
  {
 
   font-size: 60px;
-  color: #45665A;
+  color: #2b2b2b;
   margin-bottom: 1%;
   margin-top: 3%;
   margin-right: 10%;
   margin-left: 10%;
   text-align: center;
+
 
  }
   

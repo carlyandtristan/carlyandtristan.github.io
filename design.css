@@ -32,10 +32,11 @@ h1{
 
 padding: 0%;
 padding-top: 2%;
-margin-left: 20%;
-margin-right: 20%;
-color: #45665A;
+margin-left: 25%;
+margin-right: 25%;
+color: #2b2b2b;
 text-align: center;
+padding-bottom: 20%;
 
 
  }
@@ -46,7 +47,7 @@ text-align: center;
  {
 
   font-size: 60px;
-  color: #45665A;
+  color: #2b2b2b;
   margin-bottom: 1%;
   margin-top: 1%;
   margin-right: 10%;
