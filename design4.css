@@ -12,8 +12,9 @@ padding: 0%;
 padding-top: 1%;
 margin-left: 20%;
 margin-right: 20%;
-color: #45665A;
+color: #2b2b2b;
 text-align: center;
+font-size: 20px;
 
 
  }
@@ -50,9 +51,9 @@ margin-bottom: -.5%;
  {
 
   font-size: 60px;
-  color: #45665A;
-  margin-bottom: 5%;
-  margin-top: 7%;
+  color: #2b2b2b;
+  margin-bottom: 2%;
+  margin-top: 3%;
   margin-right: 10%;
   margin-left: 10%;
   text-align: center;
@@ -71,8 +72,11 @@ margin-bottom: -.5%;
  }
 
 h4{
-font-size: 20px;
+font-size: 40px;
 color: #2b2b2b;
+padding-left: 0%;
+text-align: center;
+margin: 50px;
 }
 
  h6{
@@ -85,6 +89,14 @@ color: #2b2b2b;
   text-align: center;
  }
 
+table
+{
+text-align: center;
+font-size: 20px;
+margin-left: 14%;
+margin-bottom: 5%;
+
+}
 /* 
  h5{
   
