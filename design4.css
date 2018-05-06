@@ -64,10 +64,16 @@ margin-bottom: -.5%;
   color: #45665A;
   font-size: 40px;
   margin: -0%;
-  text-align: center;
+  text-decoration: underline;
+  text-align: center
+  
 
  }
 
+h4{
+font-size: 20px;
+color: #2b2b2b;
+}
 
  h6{
 
