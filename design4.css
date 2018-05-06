@@ -18,6 +18,13 @@ text-align: center;
 
  }
 
+ p
+ {
+margin-right:30%;
+margin-left: 30%;
+font-size: 12px;
+ }
+
 footer
 {
 background: #2b2b2b;
