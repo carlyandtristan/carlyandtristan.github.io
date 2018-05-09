@@ -24,7 +24,7 @@ margin-left: 40%;
 .image1{
 width: 100%;
 margin-left: -1.2%;
-margin-top: -5%;
+margin-top: -.6%;
 
 }
 
@@ -84,8 +84,8 @@ text-align: center;
 h5
 {
 font-size: 40px;
-float: left;
-color: #f7a292;
+float: center;
+color: #FFFFFF;
 margin-top: 1%;
 margin-left: 1%;
 margin-bottom: -3%;
@@ -181,13 +181,13 @@ background-repeat: repeat;*/
 /* Links inside the navbar */
 .navbar a {
     float: right;
-    margin-top: .5%;
+    margin-top: 2.4%;
     display: block;
     color: #white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    padding-right: 3.5%;
+    padding-right: 4.6%;
 
 }
 
