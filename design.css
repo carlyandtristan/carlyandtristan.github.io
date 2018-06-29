@@ -3,7 +3,7 @@ html body
 text-align: center;
 font-family: 'Work Sans', sans-serif;
 color: #2b2b2b;
-background-color: mistyrose;
+background-color: #FFADAD;
 }
 
 footer
@@ -95,7 +95,7 @@ h5
 {
 font-size: 40px;
 float: left;
-color: #F7A292;
+color: #FFADAD;
 margin-top: 1%;
 margin-left: 1%;
 margin-bottom: -3%;
@@ -229,7 +229,7 @@ padding-bottom: 13%;
 
 /* Change background on mouse-over */
 .navbar a:hover {
-    background: #F7A292;
+    background: #FFADAD;
     color: black;
 }
 

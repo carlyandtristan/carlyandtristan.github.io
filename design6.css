@@ -3,7 +3,7 @@ html body
 text-align: center;
 font-family: 'Work Sans', sans-serif;
 color: #2b2b2b;
-background-color: mistyrose;
+background-color: #FFADAD;
 }
 
 .image1{
@@ -164,7 +164,7 @@ margin-bottom: 10%;
 
 /* Change background on mouse-over */
 .navbar a:hover {
-    background: #F7A292;
+    background: #FFADAD;
     color: black;
 }
 
